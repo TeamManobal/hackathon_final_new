@@ -60,7 +60,9 @@ Our Flutter app enables athletes to record their fitness assessments, automatica
 - **Firebase** – Authentication, Database, Storage  
 - **Dart & Flutter packages** – as listed in `pubspec.yaml`  
 - **AI/ML Modules:**  
-  - MediaPipe – Skeleton detection and pose analysis  
+  - MediaPipe – Skeleton detection and pose analysis
+  - OpenCV – Image/video processing for motion analysis
+  - NumPy – Numerical computations for AI/ML tasks
   - Google ML Kit – On-device ML tasks  
   - TensorFlow Lite – On-device inference for AI models
 
