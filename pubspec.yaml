@@ -1,0 +1,55 @@
+name: hackathon_final_new
+description: A Flutter project for pose detection and analysis.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera & video
+  camera: ^0.10.5+5  
+  video_player: ^2.10.0
+  video_thumbnail: ^0.5.6
+  path_provider: ^2.1.5
+
+  # ML Kit Pose Detection
+  google_mlkit_pose_detection: ^0.14.0
+  google_mlkit_commons: ^0.11.0
+
+  # Optional: Firebase (if you use it)
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.0.2
+  firebase_storage: ^13.0.2
+
+  # Utility & UI
+  carousel_slider: ^5.0.0
+  confetti: ^0.8.0
+  permission_handler: ^12.0.1
+  image: ^4.5.4
+  tflite_flutter: ^0.11.0
+  lottie: ^3.1.2
+  share_plus: ^12.0.0
+  image_picker: ^1.2.0
+  http: ^1.5.0
+  async: ^2.13.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/signup2.png
+    - assets/running.jpg
+    - assets/jump.jpeg
+    - assets/situp.jpeg
+    - assets/models/pose_landmarker_lite.task
+    - assets/animation/squats.mp4
